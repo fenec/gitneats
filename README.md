@@ -1,9 +1,8 @@
-### gitneats. list of useful git commands
+### List of useful git commands
 
-Resync current directory with updated `.gitignore`:
-
-**git rm -r --cached .**
-
-Remove localal untracked files:
-
-**git clean -f**
+| Command | Description |
+| ------- | ----------- |
+| git rm -r --cached .                | Resync current directory with updated `.gitignore` |
+| git clean -f                        | Remove localal untracked files |
+| git checkout -                      | Checkout previous branch |
+| git stash show -p stash@{STASH_NUM} | Show stash diff |
